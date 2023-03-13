@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YM_Auth_extension",
+  "version": "1.0.0",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "",
+  "action": {
+    "default_popup": "./index.html",
+    "default_title": "auth"
+  }
+}
