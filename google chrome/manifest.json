@@ -8,7 +8,12 @@
   },
   "description": "",
   "action": {
-    "default_popup": "./index.html",
+    "default_popup": "./popup/popup.html",
     "default_title": "auth"
+  },
+  "applications": {
+    "gecko": {
+      "id": "ymAuthExt@penis.com"
+    }
   }
 }

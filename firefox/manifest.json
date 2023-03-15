@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "YM_Auth_extension",
+  "version": "1.0.0",
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "description": "",
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "./popup/popup.html",
+    "default_title": "auth"
+  },
+  "applications": {
+    "gecko": {
+      "id": "ymAuthExt@penis.com"
+    }
+  }
+}
